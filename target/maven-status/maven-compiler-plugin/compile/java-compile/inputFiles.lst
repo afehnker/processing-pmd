@@ -1,0 +1,16 @@
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/processing/LineInFile.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelier/api/AtelierAPI.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelierpmd/server/Webhook.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelierpmd/server/Configuration.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/processing/ProcessingFile.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/processing/pmd/AbstractProcessingRule.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelier/exceptions/ConfigurationException.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelier/api/utils/PemUtils.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/processing/pmd/PMDException.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelierpmd/server/WebhookHandler.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelier/pmd/AtelierPMDRenderer.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelier/exceptions/CryptoException.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/processing/ProcessingProject.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelier/api/Authentication.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/atelierpmd/LocalRunner.java
+/Users/adamfulton/Documents/Development/univesity/comp_1050_Github_Actions/atelier-pmd/src/main/java/nl/utwente/processing/pmd/PMDRunner.java
