@@ -2,12 +2,15 @@ package nl.utwente.atelierpmd;
 
 import net.sourceforge.pmd.RuleViolation;
 import net.sourceforge.pmd.renderers.AbstractIncrementingRenderer;
+import net.sourceforge.pmd.renderers.SarifRenderer;
 import nl.utwente.processing.LineInFile;
 import nl.utwente.processing.ProcessingFile;
 import nl.utwente.processing.ProcessingProject;
 import nl.utwente.processing.pmd.PMDException;
 import nl.utwente.processing.pmd.PMDRunner;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
@@ -148,8 +151,9 @@ public class LocalRunner {
         );
 
         var runner = new PMDRunner();
-        var renderer = new AtelierStyleTextRenderer(project);
-        renderer.setWriter(new PrintWriter(System.out));
+        var renderer = new SarifRenderer();
+        File output = new File("./output.sarif");
+        renderer.setWriter(new FileWriter(output));
         runner.Run(project, renderer);
     }
 }
