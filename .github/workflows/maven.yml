@@ -32,9 +32,8 @@ jobs:
     - name: Run Atelier-PMD
       run: java -cp target/atelier-pmd-jar-with-dependencies.jar nl.utwente.atelierpmd.LocalRunner ./Submissions/s0001_Alice_Penguin/MarchPenguin
      
-    - name: Upload SARIF file
-      uses: github/codeql-action/upload-sarif@v2
+    - uses: jwgmeligmeyling/pmd-github-action@master
       with:
-        sarif_file: output.sarif
+        path: '**/output.xml'
 
        
