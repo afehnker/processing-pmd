@@ -3,6 +3,7 @@ package nl.utwente.atelierpmd;
 import net.sourceforge.pmd.RuleViolation;
 import net.sourceforge.pmd.renderers.AbstractIncrementingRenderer;
 import net.sourceforge.pmd.renderers.SarifRenderer;
+import net.sourceforge.pmd.renderers.XMLRenderer;
 import nl.utwente.processing.LineInFile;
 import nl.utwente.processing.ProcessingFile;
 import nl.utwente.processing.ProcessingProject;
@@ -151,8 +152,8 @@ public class LocalRunner {
         );
 
         var runner = new PMDRunner();
-        var renderer = new SarifRenderer();
-        File output = new File("./output.sarif");
+        var renderer = new XMLRenderer();
+        File output = new File("./output.xml");
         renderer.setWriter(new FileWriter(output));
         runner.Run(project, renderer);
     }
