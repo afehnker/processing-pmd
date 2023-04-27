@@ -44,3 +44,7 @@ void mouseDragged(){
     colony[i].drag(mouseX,mouseY);
   }
 }
+
+void FOO(int Yeah){
+
+}
