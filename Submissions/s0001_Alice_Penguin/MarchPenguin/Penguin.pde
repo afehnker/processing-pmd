@@ -61,7 +61,7 @@ class Penguin {
   }
 
   boolean select(float x, float y) {
-    this.isSelected=isOver(x, y);
+    this.isSelected=isOver(mouseX, mouseY);
     return this.isSelected;
   }
 
