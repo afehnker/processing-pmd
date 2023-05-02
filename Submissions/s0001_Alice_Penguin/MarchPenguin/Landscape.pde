@@ -17,6 +17,7 @@ class Landscape {
       // Set the vertex
      
       vertex(x, y); 
+      y = mouseY;
       
     }    
     vertex(width, height);
